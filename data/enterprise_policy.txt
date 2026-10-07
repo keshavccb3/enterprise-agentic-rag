@@ -1,0 +1,18 @@
+Enterprise Security and Data Policy
+
+Production services must use TLS 1.2 or higher for network communication.
+Customer data must be encrypted at rest using AES-256.
+Production access follows least privilege and requires multi-factor authentication.
+Confirmed security incidents must be reported to the security team within 30 minutes.
+
+Data Retention Policy
+
+Application logs are retained for 30 days in production.
+Audit logs are retained for 365 days.
+Backups are encrypted and access is restricted to authorized administrators.
+
+Engineering Policy
+
+Production changes require code review before deployment.
+Secrets must be stored outside source code.
+Database passwords must never be committed to a repository.
